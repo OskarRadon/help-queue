@@ -1,20 +1,31 @@
 body, html {
   margin: none;
-  padding: none; }
+  padding: none;
+  text-align: center; }
+  body button, html button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 12px;
+    border: none;
+    background: tomato;
+    color: white;
+    border-bottom: 3px solid #ad1a00; }
+  body ul, html ul {
+    list-style: none;
+    text-align: left; }
 
 header {
-  background: orange;
+  background: tomato;
   margin: none;
-  padding: 10px; }
+  padding: 5px; }
   header a {
     font-weight: normal;
     text-align: center; }
     header a h2 {
-      margin: 0px; }
+      margin: 0px;
+      color: white; }
     header a:visited {
-      color: black; }
-
-body a {
-  text-align: center; }
+      color: white; }
 
 /*# sourceMappingURL=app.css.map */

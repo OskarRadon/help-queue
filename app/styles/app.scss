@@ -1,24 +1,35 @@
 body, html {
   margin: none;
   padding: none;
+  text-align: center;
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 12px;
+    border: none;
+    background: tomato;
+    color: white;
+    border-bottom: 3px solid darken(tomato, 30%);
+  }
+  ul {
+    list-style: none;
+    text-align: left;
+  }
 }
 header {
-  background: orange;
+  background: tomato;
   margin: none;
-  padding: 10px;
+  padding: 5px;
   a {
     font-weight: normal;
     text-align: center;
     h2 {
       margin: 0px;
+      color: white;
     }
     &:visited {
-      color: black;
+      color: white;
     }
-  }
-}
-body {
-  a {
-    text-align: center;
   }
 }
