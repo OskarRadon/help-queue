@@ -1,0 +1,25 @@
+body, html {
+  margin: none;
+  padding: none;
+}
+header {
+  background: orange;
+  margin: none;
+  padding: 10px;
+  a {
+    font-weight: normal;
+    text-align: center;
+    h2 {
+      margin: 0px;
+    }
+    &:visited {
+      color: black;
+    }
+  }
+}
+body {
+  a {
+    text-align: center;
+
+  }
+}
