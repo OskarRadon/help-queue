@@ -1,1 +1,9 @@
-{{outlet}}
+<ul>
+  {{#each model as |ticket|}}
+  <li>
+    <h3>{{ticket.user}}</h3>
+    <h4>{{ticket.title}}</h4>
+    <p>{{ticket.text}}</p>
+  </li>
+  {{/each}}
+</ul>
