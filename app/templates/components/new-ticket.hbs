@@ -1,0 +1,17 @@
+{{#if showTicketForm}}
+  <h4>Add new help ticket:</h4>
+  <form>
+    <label for="user">Your name:</label>
+    {{input value=user id="user"}}
+
+    <label for="title">Title:</label>
+    {{input value=title id="title"}}
+
+    <label for="text">Explain the question:</label>
+    {{input value=text id="text"}}
+
+    <button {{action 'saveTicket' question}}>Submit</button>
+  </form>
+{{else}}
+  <button {{action 'showQuestionForm'}}>Get help!</button>
+{{/if}}
